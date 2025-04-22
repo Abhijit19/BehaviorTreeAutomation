@@ -5,7 +5,7 @@ PR: Behavior Tree Editor Window with Runtime Execution Support
 
 How to Use:
 
-1.Add the scripts to the assets folder in the project.
+1. Add the scripts to the assets folder in the project.
 
 2. Create a scene- Player gameobject, AI gameobject, AImanager for AI Char script attached.
 
