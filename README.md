@@ -53,4 +53,21 @@ Further extensions:
 • If new strategies are coded, they can be added to the window and used for the leaf.
 
 • The trees can be built before runtime and retrieved during runtime using scriptable objects or JSON. I did test this with JSON successfully but to keep the implementation light weighted, I removed this part. 
-    
+
+How to Use:
+
+1.Add the scripts to the assets folder in the project.
+
+2. Create a scene- Player gameobject, AI gameobject, AImanager for AI Char script attached.
+
+3. Play and open the behavior tree from custom tools menu.
+
+4. Name all the nodes before adding them. First add leaf node of DestFollowCheck strategy.Then add leaf of PlayerAction strategy with the player and AI assigned and keep the bool false.
+
+5. Then go ahead and add a sequence. Now, in the parent, select sequence and in the child select the destcheck leaf first, add child and then playeraction next, add it to the sequence.
+
+6. Now add a selector and add the sequence created before as child to it.
+
+7. Then add a repeaterselector and add the selector to this.
+
+8. Now click on build tree and observe the ai move towards the player. 
