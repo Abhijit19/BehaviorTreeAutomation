@@ -3,6 +3,7 @@ Automation and speeding up workflow with custom UI
 
 PR: Behavior Tree Editor Window with Runtime Execution Support
 
+I chose a personal research project for AI enhancements(with behavior tree that i'm extending on from open source) to make it's own decisions and custom chat functionality that i'm building with transformer architecture. I removed all my scoresystem, chatbox scripts from this branch to keep it relevant. BTUI is the latest script i wrote for this tool.
 
 Summary: To build a custom Behavior Tree Editor Window for Unity that allows content integrators or developers to create behavior trees visually via the Editor. This setup allows rapid prototyping of AI behavior without hardcoding trees every time new tree or nodes need to be created or added.
 
