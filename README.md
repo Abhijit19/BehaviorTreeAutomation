@@ -22,7 +22,7 @@ I designed the system to allow users to set and adjust values at runtime whereve
 
 How to Use:
 
-1.Add the scripts to the assets folder in the project.
+  1.Add the scripts to the assets folder in the project.
 
 2. Create a scene- Player gameobject, AI gameobject, AImanager for AI Char script attached.
 
